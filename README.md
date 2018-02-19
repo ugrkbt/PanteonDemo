@@ -1,2 +1,2 @@
 # PanteonDemo
-A*  patfinding and build strategy game
+A*  patfinding and strategy game
