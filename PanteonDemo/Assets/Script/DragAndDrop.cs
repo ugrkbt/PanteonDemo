@@ -18,7 +18,7 @@ public class DragAndDrop : MonoBehaviour {
 
         distance = Vector3.Distance(transform.position,Camera.main.transform.position);
         dragging = true;
-        Grid.Instance.squareManager.SetActive(true);
+       // Grid.Instance.squareManager.SetActive(true);
     }
     //objeyi bırakır en yakın olduğu nodelerin tam ortasına ortası gelecek şekil yerleştirir
     public void OnDrop()
@@ -40,7 +40,7 @@ public class DragAndDrop : MonoBehaviour {
         }
         else
             Destroy(gameObject);
-        Grid.Instance.squareManager.SetActive(false);
+        //Grid.Instance.squareManager.SetActive(false);
         ColorClear();
 
     }
